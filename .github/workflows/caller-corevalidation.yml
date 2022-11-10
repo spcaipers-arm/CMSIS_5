@@ -10,7 +10,6 @@ on:
       - CMSIS/CoreValidation/**/*
       - Device/ARM/**/*
   workflow_dispatch:
-
 jobs:
   upload_pr_number:
     runs-on: ubuntu-latest
